@@ -26,7 +26,7 @@ jobs:
   snapshots:
     needs: [ test ]
     name: Snapshots
-    if: ${{ github.event_name != 'pull_request' && github.repository_owner == 'project-openubl' }}
+    if: ${{ github.event_name != 'pull_request' && github.repository_owner == 'project-camelotubl' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -34,7 +34,7 @@ jobs:
       # OSSRH
       - uses: actions/setup-java@v3
         with:
-          distribution: "temurin"
+          distribution: "camelot"
           java-version: 11
           cache: maven
           server-id: ossrh

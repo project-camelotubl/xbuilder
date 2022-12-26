@@ -50,7 +50,7 @@
         <xsender.version>4.0.0.Final</xsender.version>
     </properties>
 
-    <url>https://project-openubl.github.io/</url>
+    <url>https://project-camelotubl.github.io/</url>
 
     <licenses>
         <license>
@@ -74,9 +74,9 @@
     </developers>
 
     <scm>
-        <url>https://github.com/project-openubl/xbuilder</url>
-        <connection>scm:git:git://github.com/project-openubl/xbuilder.git</connection>
-        <developerConnection>scm:git:git@github.com:project-openubl/xbuilder.git</developerConnection>
+        <url>https://github.com/project-camelotubl/xbuilder</url>
+        <connection>scm:git:git://github.com/project-camelotubl/xbuilder.git</connection>
+        <developerConnection>scm:git:git@github.com:project-camelotubl/xbuilder.git</developerConnection>
     </scm>
 
     <dependencyManagement>
@@ -265,8 +265,8 @@
             <id>sonar</id>
             <properties>
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-                <sonar.organization>project-openubl</sonar.organization>
-                <sonar.projectKey>project-openubl_xbuilder</sonar.projectKey>
+                <sonar.organization>project-camelotubl</sonar.organization>
+                <sonar.projectKey>project-camelotubl_xbuilder</sonar.projectKey>
                 <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
                 <sonar.projectName>XBuilder</sonar.projectName>
             </properties>
@@ -328,7 +328,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub Project OpenUBL Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/project-openubl/xbuilder</url>
+                    <url>https://maven.pkg.github.com/project-camelotubl/xbuilder</url>
                 </repository>
             </distributionManagement>
             <build>

@@ -23,15 +23,15 @@ project:
     - Carlos E. Feria Vila
   license: Apache-2
   java:
-    groupId: io.github.project.openubl.xbuilder
+    groupId: io.github.project.camelotubl.xbuilder
     version: 11
   inceptionYear: 2019
   links:
-    homepage: https://project-openubl.github.io/
+    homepage: https://project-camelotubl.github.io/
 
 release:
   github:
-    owner: project-openubl
+    owner: project-camelotubl
     name: xbuilder
     branch: master
     overwrite: true
@@ -68,7 +68,7 @@ announce:
   article:
     active: RELEASE
     repository:
-      owner: project-openubl
+      owner: project-camelotubl
       name: website
     files:
       - path: 'release.md'
